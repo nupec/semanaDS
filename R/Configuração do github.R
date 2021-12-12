@@ -14,3 +14,16 @@ usethis::create_github_token()
 
 gitcreds::gitcreds_set()
 
+### Passo 4: Inicializando o git
+
+usethis::use_git()
+
+### Passo 5: Conectando os arquivos no github
+
+usethis::use_github()
+
+### Passo 6: Transformando o github em um site
+
+usethis::use_github_pages("mater", "/docs")
+
+
