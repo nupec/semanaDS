@@ -26,12 +26,4 @@ usethis::use_github()
 
 usethis::use_github_pages("master", "/docs")
 
-### Passo 7: Começar a criar o blog
-
-file.create(".nojekyll")
-
-### Passo 8: Criando o blo pelo pacote distill
-
-distill::create_blog(".", "Primeiro Blog", gh_pages = T)
-
 
