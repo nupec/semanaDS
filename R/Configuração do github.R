@@ -34,4 +34,8 @@ file.create(".nojekyll")
 
 distill::create_blog(".", "Primeiro Blog", gh_pages = T)
 
+### Passo 9: Criando novo blog
+
+distill::create_post("Analise da base RAIS")
+
 
